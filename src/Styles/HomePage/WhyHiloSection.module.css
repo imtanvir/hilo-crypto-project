@@ -1,0 +1,50 @@
+.mainContainer {
+  padding: 5rem 6.5%;
+  font-family: "Space Grotesk";
+  color: #f0f0f0;
+  position: relative;
+}
+
+.sectionHeading {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.textsDiv{
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.eachTextDiv {
+  display: flex;
+  align-items: start;
+  gap: 8px;
+}
+
+
+.textsDiv p {
+  font-size: 21px;
+  z-index: 99;
+}
+
+.textsDiv p span {
+  color: #04c983;
+  font-weight: 700;
+}
+
+.sparkIcon {
+  width: 18px;
+  object-fit: contain;
+}.stromeImg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}.lineImg{
+  position: absolute;
+  right: 18%;
+  bottom: 0;
+  z-index: 1;
+}

@@ -1,0 +1,313 @@
+.mainContainer {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.heroSectionContainer {
+  height: 735px;
+  display: flex;
+  position: relative;
+  padding: 0 10%;
+  background-color: transparent;
+}
+
+.leftsideCont {
+  flex-grow: 2;
+  display: flex;
+}
+.countDownNum {
+  top: 22%;
+  left: -2%;
+  position: relative;
+}
+.countDownNum h1 {
+  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.11));
+  background: linear-gradient(183.2deg, #FD45D0 11.58%, #FE0662 38.42%, #FE3D44 63.79%, #FE9314 82.17%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  position: absolute;
+  line-height: 0.69em;
+  font-size: 20em !important;
+  font-weight: 700 !important;
+  font-family: Poppins !important;
+}
+.coinImg {
+  width: 25%;
+  height: fit-content;
+  object-fit: contain;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+.rightSideCont {
+  color: white;
+  width: 34%;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.textImg {
+  width: 100%;
+  object-fit: contain;
+}
+
+/* /// ABSOLUTE IMAGES /// */
+.skyBG {
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.bubbleAvatar {
+  position: absolute;
+  left: 19%;
+  top: 70%;
+}
+
+.bubbleAvatar2 {
+  position: absolute;
+  width: 85px;
+  object-fit: contain;
+  left: 45%;
+  top: 65%;
+}
+
+.bubbleAvatar3 {
+  position: absolute;
+  width: 50px;
+  object-fit: contain;
+  left: 53%;
+  top: 57%;
+}
+
+.bubbleAvatar4 {
+  position: absolute;
+  width: 100px;
+  object-fit: contain;
+  left: 70%;
+  top: 63%;
+}
+.bubbleAvatar5 {
+  position: absolute;
+  width: 70px;
+  object-fit: contain;
+  left: 10%;
+  top: 60%;
+}
+.bubbleAvatar6 {
+  position: absolute;
+  width: 75px;
+  object-fit: contain;
+  right: 15%;
+  top: 50%;
+}
+@media screen and (min-width: 992px) and (max-width: 1439px) {
+  .coinImg {
+    width: 25%;
+    height: -moz-fit-content;
+    height: fit-content;
+    object-fit: contain;
+    position: absolute;
+    top: 20%;
+    left: 36%;
+}
+  .bubbleAvatar {
+    position: absolute;
+    left: 5%;
+    top: 79%;
+    width: 150px;
+  }
+  .bubbleAvatar2 {
+    position: absolute;
+    width: 100px;
+    object-fit: contain;
+    left: 42%;
+    top: 54%;
+  }
+
+  .bubbleAvatar3 {
+    position: absolute;
+    width: 60px;
+    object-fit: contain;
+    left: 54%;
+    top: 42%;
+  }
+
+  .bubbleAvatar4 {
+    position: absolute;
+    width: 120px;
+    object-fit: contain;
+    left: 70%;
+    top: 65%;
+  }
+  .bubbleAvatar5 {
+    position: absolute;
+    width: 50px;
+    object-fit: contain;
+    left: 11%;
+    top: 47%;
+  }
+  .bubbleAvatar6 {
+    position: absolute;
+    width: 45px;
+    object-fit: contain;
+    right: 8%;
+    top: 40%;
+  }
+  
+}
+/* @media screen and (max-width: 768px) {
+  .mainContainer {
+    width: 100%;
+    height: 635px;
+    position: relative;
+  }
+
+  .heroSectionContainer {
+    height: 435px;
+    display: flex;
+    position: relative;
+    padding: 0 10%;
+    background-color: transparent;
+  }
+
+  .oneImg {
+    width: 25%;
+    height: fit-content;
+    object-fit: contain;
+    position: absolute;
+    left: 13%;
+  }
+
+  .coinImg {
+    width: 60%;
+    height: fit-content;
+    object-fit: contain;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+  }
+  .rightSideCont {
+    color: white;
+    width: 45%;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .bubbleAvatar {
+    position: absolute;
+    left: 5%;
+    top: 70%;
+    width: 120px;
+  }
+
+  .bubbleAvatar2 {
+    position: absolute;
+    width: 80px;
+    object-fit: contain;
+    left: 46%;
+    top: 65%;
+  }
+
+  .bubbleAvatar3 {
+    position: absolute;
+    width: 40px;
+    object-fit: contain;
+    left: 72%;
+    top: 58%;
+  }
+
+  .bubbleAvatar4 {
+    position: absolute;
+    width: 80px;
+    object-fit: contain;
+    left: 80%;
+    top: 75%;
+  }
+  .bubbleAvatar5 {
+    position: absolute;
+    width: 40px;
+    object-fit: contain;
+    left: 4%;
+    top: 20%;
+  }
+  .bubbleAvatar6 {
+    position: absolute;
+    width: 45px;
+    object-fit: contain;
+    right: 5%;
+    top: 17%;
+  }
+} */
+@media screen and (min-width:744px) and (max-width:992px) { 
+  .coinImg {
+    width: 24%;
+    top: 55%;
+    left: 29%;
+  }.textImg {
+    width: 100%;
+    padding-left: 0em;
+}.rightSideCont {
+  height: fit-content;
+  text-align: right;
+}.mainContainer {
+  height: 16em;
+}.leftsideCont {
+  height: fit-content;
+}.heroSectionContainer {
+  height: fit-content;
+}.bubbleAvatar{
+  width: 100px;
+  top: 100%;
+}.bubbleAvatar2 {
+  width: 40px;
+  top: 139%;
+  left: 26%;
+}.bubbleAvatar3 {
+  top: 46%;
+}.bubbleAvatar4 {
+  width: 30px;
+  left: 70%;
+  top: 68%;
+}.bubbleAvatar5 {
+  width: 20px;
+  top: 47%;
+}
+}
+@media screen and (min-width:320px) and (max-width:743px) {
+  .coinImg {
+    width: 30%;
+    top: 30%;
+    left: 28%;
+  }.textImg {
+    width: 80%;
+}.rightSideCont {
+  height: fit-content;
+  text-align: right;
+}.mainContainer {
+  height: 16em;
+}.leftsideCont {
+  height: fit-content;
+}.heroSectionContainer {
+  height: fit-content;
+}.bubbleAvatar{
+  width: 90px;
+  top: 65%;
+}.bubbleAvatar2 {
+  width: 40px;
+  top: 70%;
+}.bubbleAvatar3 {
+  top: 46%;
+}.bubbleAvatar4 {
+  width: 30px;
+  left: 70%;
+  top: 68%;
+}.bubbleAvatar5 {
+  width: 20px;
+  top: 47%;
+}
+}

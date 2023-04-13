@@ -1,0 +1,76 @@
+.mainContainer {
+  width: 40%;
+  height: fit-content;
+  margin: auto;
+  border: 1px solid #fec111;
+  padding: 36px;
+}
+
+.upperTxt {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 172.02%;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-align: center;
+}
+
+.inputFieldsContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputFieldsContainer div {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 172.02%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+input {
+  width: 100%;
+  background-color: #d9d9d9;
+  padding: .7rem;
+  font-size: 20px;
+  font-family: "Space Grotesk";
+  border: none;
+  outline: 0;
+
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 5px;
+  background: #fec111;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 172.02%;
+  text-transform: capitalize;
+  color: #000000;
+  border: none;
+}
+@media screen and (min-width: 769px) and (max-width: 1520px) {
+}
+@media screen and (max-width: 768px) {
+  .mainContainer{
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+  }
+  
+}

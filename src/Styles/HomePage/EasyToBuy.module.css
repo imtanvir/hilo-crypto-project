@@ -1,0 +1,265 @@
+.mainContainer {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.sectionHeading {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 110%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f0f0f0;
+}
+
+.iconsDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.textsDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+}
+.textsDiv::after {
+  content: '';
+  position: absolute;
+  width: 26%;
+  height: 59%;
+  border-radius: 50%;
+  right: 0;
+  background: linear-gradient(99.78deg, #EF6D0B 46.93%, rgba(243, 90, 30, 0.915186) 58.2%, rgba(254, 40, 79, 0.7) 68.15%);
+  filter: blur(270.5px);
+}
+
+.textsDiv p {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 124%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #f0f0f0;
+}
+
+.convertSection {
+  width: 956px;
+  margin: auto;
+  position: relative;
+}
+.convertSection::before {
+  content: '';
+  position: absolute;
+  width: 35%;
+  height: 45%;
+  border-radius: 50%;
+  right: -30%;
+  top: 30%;
+  background: linear-gradient(99.78deg, #C22CDA 46.93%, #9B12B1 63.24%, #1AADDC 79.69%);
+  filter: blur(150.5px);
+}.convertSection::after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 45%;
+  border-radius: 50%;
+  left: -31%;
+  top: 57%;
+  background: linear-gradient(99.78deg, #da2c2c 46.93%, #b1129c 63.24%, #1AADDC 79.69%);
+  filter: blur(144.5px);
+}
+
+.headerDiv {
+  background: #04c983;
+  border-radius: 12px 12px 0px 0px;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerDiv h3 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  color: #040d18;
+}
+
+.headerDiv span {
+  font-size: 3rem;
+}
+
+.bodySection {
+  background-color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.bodySection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.bodySection div:nth-child(1) {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bodySection div:nth-child(1) div {
+  position: absolute;
+  top: 3rem;
+  left: 45rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bodySection div:nth-child(1) div img {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+}
+
+.bodySection div:nth-child(1) div p {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+  color: #686868;
+}
+
+.bodySection div:nth-child(2) {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bodySection div:nth-child(2) div {
+  position: absolute;
+  top: 3rem;
+  left: 45rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bodySection div:nth-child(2) div img {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+}
+
+.bodySection div:nth-child(2) div p {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+  color: #686868;
+}
+
+.bodySection label {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
+}
+
+.bodySection input {
+  width: 886px;
+  height: 88.37px;
+  left: 35.07px;
+  top: 193.62px;
+  background: #fdfdfd;
+  border: 2px solid #04c983;
+  border-radius: 12px;
+  padding: 1rem;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+  color: #818181;
+  padding-right: 11rem;
+}
+.convertEthBtn{
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  padding: 15px 20px;
+  font-weight: bolder;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+@media screen and (min-width: 769px) and (max-width: 1520px) {
+  .mainContainer {
+    padding: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .iconsDiv {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sectionHeading{
+    font-size: 26px;
+  }
+  .textsDiv p{
+    font-size: 16px;
+  }
+  .bodySection input {
+    width: 100%;
+    /* height: 88.37px; */
+    left: 35.07px;
+    top: 193.62px;
+    background: #fdfdfd;
+    border: 2px solid #04c983;
+    border-radius: 12px;
+    padding: 1rem;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    color: #818181;
+    padding-right: 11rem;
+  }
+  .convertSection{
+    width: 100%;
+  }
+  .mainContainer{
+    padding: 1rem;
+
+  }
+  .ether-icon{
+    position: absolute;
+    z-index: 1000;
+    height: 100px;
+    width: 100px;
+  }
+}

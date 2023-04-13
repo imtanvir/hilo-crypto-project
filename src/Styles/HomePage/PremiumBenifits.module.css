@@ -1,0 +1,130 @@
+@keyframes heloAnimate {
+  0%   {background-color:#04c983;}
+  20%  {background-color:#C22CDA;}
+  25%  {background-color:#EF6D0B;}
+  50%  {background-color:#2fffda;}
+  75%  {background-color:#C22CDA;}
+  100% {background-color:#f35a1ee9;}
+}
+.mainContainer{
+  padding: 3rem 10%;
+}
+
+.headingDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 56px;
+  color: #f0f0f0;
+}
+
+.sparkIcon{
+  width: 53px;
+  object-fit: contain;
+}
+
+.sectionHeading {
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Space Grotesk";
+}
+
+.imagesContainer{
+  /* margin-top: 62px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  position: relative;
+}.imagesContainer::before{
+  content: "";
+  position: absolute;
+  width: 70%;
+  height: 64%;
+  top: 18%;
+  border-radius: 50%;
+  background-color: #04c983;
+  animation-name: heloAnimate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  filter: blur(271px);
+  z-index: 1;
+}
+
+.imagesContainer img{
+  width: 350px;
+  object-fit: contain;
+  z-index: 3;
+}
+
+.modalBrdrNone {
+  border-top: none !important;
+  border-bottom: none !important;
+  padding: 0 !important;
+}
+.modalContM {
+  /* margin-top: 25% !important; */
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 3em;
+  width: 50em !important;
+  background: linear-gradient(0deg, #1e2835, #1e2835),
+linear-gradient(
+  180deg,
+  rgba(255, 255, 255, 0.08) 0%,
+  rgba(255, 255, 255, 0) 100%
+) !important;
+  border-radius: 25px !important;
+}.headingFnt {
+  font-family: Space Grotesk !important;
+  font-size: 26px !important;
+  font-weight: 400 !important;
+  text-transform: capitalize;
+}
+.detailsPeraFnt{
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-weight: 500;
+}
+.icnContainer{
+  display: flex;
+  justify-content: center;
+  height: 5em;
+  margin-bottom: 1.5em;
+}
+
+.modalBody{
+  background-color: black;
+  padding: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .sparkIcon{
+    width: 30px;
+  }
+  .sectionHeading{
+    font-size: 24px;
+  }
+ 
+}
+@media screen and (max-width: 575px) {
+  .sectionHeading{
+    font-size: 15px;
+  }.bottomPartContainer h1 {
+  text-align: center;
+}
+ 
+}@media screen and (max-width: 743px) {
+  .sectionHeading{
+    font-size: 15px;
+  }.bottomPartContainer h1 {
+  text-align: center;
+}.imagesContainer img {
+  width: 280px;
+}
+.imagesContainer button:nth-child(3) img {
+  width: 285px;
+}
+}

@@ -1,0 +1,58 @@
+.mainContainer {
+  padding: 3rem 8.48%;
+}
+
+.sectionHeading {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 100%;
+  /* or 50px */
+
+  color: #ffffff;
+  text-align: center;
+}
+
+.liContainer {
+  background-color: #1e2835ba;
+  padding: 3rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 22px;
+  position: relative;
+}.liContainer::after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 30%;
+  border-radius: 50%;
+  right: 0%;
+  top: -5%;
+  background: linear-gradient(99.78deg, #EF6D0B 46.93%, rgba(243, 90, 30, 0.915186) 58.2%, rgba(254, 40, 79, 0.7) 68.15%);
+  filter: blur(230.5px);
+}
+
+li {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 138%;
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  li {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 138%;
+    color: #ffffff;
+  }
+  .sectionHeading {
+    font-size: 26px;
+  }
+}

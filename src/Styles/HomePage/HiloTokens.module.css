@@ -1,0 +1,305 @@
+@keyframes heloAnimate {
+  0%   {background-color:#04c983;}
+  20%  {background-color:#C22CDA;}
+  25%  {background-color:#EF6D0B;}
+  50%  {background-color:#2fffda;}
+  75%  {background-color:#C22CDA;}
+  100% {background-color:#f35a1ee9;}
+}
+.mainContainer {
+  position: relative;
+}
+.mainContainer::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 20%;
+  width: 100%;
+  height: 70%;
+  background-color: #04c983;
+  animation-name: heloAnimate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  filter: blur(175px);
+}
+
+.sectionHeading {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 172.02%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.cardsContainer {
+  margin-top: 50px;
+  padding: 0 12.06%;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.eachCard {
+  width: 352px;
+  height: 362px;
+  background: #1e2835;
+  border-radius: 20px;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.eachCard:hover {
+  box-shadow: 0px 0px 8px #04c983;
+  transition: 0.5s;
+}
+.eachCard:hover h5 {
+  color: #04c983;
+  transition: 0.5s;
+}
+
+.eachCard:hover h6 {
+  color: #fec111;
+  transition: 0.5s;
+}
+
+.eachCard:hover .absoluteSection {
+  background-color: #04c983;
+  transition: 0.5s;
+}
+
+.eachCard:hover .table div p:nth-child(2) {
+  color: #04c983;
+  transition: 0.5s;
+}
+
+.cardHeading h5 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 140%;
+  color: white;
+  transition: 0.5s;
+}
+
+.cardHeading h6 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 140%;
+  color: white;
+  transition: 0.5s;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.table div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  white-space: nowrap;
+}
+
+.table p {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #f0f0f0;
+}
+
+.devider {
+  height: 1px;
+  width: 100%;
+  background-color: #f0f0f050;
+  margin: 8px 0;
+}
+
+.absoluteSection {
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  position: absolute;
+  top: -0.5rem;
+  right: -2rem;
+  transform: rotate(45deg);
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.absoluteSection img {
+  z-index: 500;
+  transform: rotate(-45deg);
+  margin-bottom: 0.4rem;
+}
+
+.activeCard {
+  width: 352px;
+  height: 362px;
+  background: #1e2835;
+  box-shadow: 0px 0px 8px #04c983;
+  border-radius: 20px;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.progressSliderContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.progressSliderContainer h1 {
+  font-family: Space Grotesk;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.statusColor {
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  background-color: #04c983;
+  margin-right: 5px;
+}
+.progressSliderContainer h2 {
+  color: #fff;
+  font-family: Space Grotesk;
+  font-size: 22px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.preSaleRoundLive {
+  width: 77%;
+  height: 60px;
+  padding: 20px;
+  border-radius: 30px;
+  background: #171f29;
+  z-index: 11;
+  position: relative;
+  margin-top: 5em;
+}
+.roundLiveImg {
+  position: relative;
+  width: 22%;
+  height: 3.8rem;
+  top: -21px;
+  left: -14px;
+  border-radius: 30px;
+  background: linear-gradient(270deg, #04c983 6.58%, rgba(9, 18, 29, 0) 100%);
+}
+.roundLiveImg::before {
+  content: "$50000";
+  position: absolute;
+  right: -26px;
+  top: -100%;
+  color: #fff;
+  font-size: 1.2em;
+}
+.roundLiveImg::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: #fff;
+  right: -3px;
+  top: -60%;
+}
+.roundLiveImg .indicatorBar {
+  position: absolute;
+  width: 3px;
+  height: 30px;
+  background: #fff;
+  right: 0;
+  top: -48%;
+}
+.roundLiveImg img {
+  position: absolute;
+  width: 76px;
+  top: -13px;
+  left: -12px;
+}
+.progressSliderContainer .liveBtmTxt {
+  width: 75%;
+  padding-top: 0.5em;
+}
+.progressSliderContainer .liveBtmTxt p {
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+@media screen and (min-width: 992px) and (max-width: 1439px) {
+  .table p {
+    font-size: 20px;
+}
+}
+@media screen and (min-width: 744px) and (max-width: 991px) {
+  .mainContainer {
+    position: relative;
+    margin-top: 4em;
+}.sectionHeading {
+  margin-top: 2em;
+}.cardHeading h5 {
+  font-size: 18px;
+}.table p {
+  font-size: 16px;
+}.progressSliderContainer h1 {
+  font-size: 20px;
+  text-align: center;
+}
+}
+@media screen and (min-width: 576px) and (max-width: 743px) {
+.mainContainer {
+    position: relative;
+    margin-top: 4em;
+} .sectionHeading {
+  font-size: 1.5em;
+}.cardsContainer {
+  flex-wrap: wrap;
+}.cardHeading h5 {
+  font-size: 18px;
+}.cardHeading h6 {
+  font-size: 18px;
+}.table p {
+  font-size: 16px;
+}.progressSliderContainer h1 {
+  font-size: 20px;
+  text-align: center;
+}
+}
+@media screen and (min-width:320px) and (max-width:575px) {
+  .sectionHeading {
+    font-size: 1.5em;
+}.cardsContainer {
+  flex-wrap: wrap;
+}.cardHeading h5 {
+  font-size: 18px;
+}.cardHeading h6 {
+  font-size: 18px;
+}.table p {
+  font-size: 16px;
+}.progressSliderContainer {
+  display: none;
+}.cardsContainer {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+}

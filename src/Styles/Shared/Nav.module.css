@@ -1,0 +1,387 @@
+.largeNav {
+  display: block;
+}
+.MuiDrawer-root {
+  background-color: #040d18 !important;
+
+}
+.navHeadContainer {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.tkPriceTxt {
+  font-size: 26px;
+  font-weight: 700;
+  margin-right: 2rem;
+}.tkPriceTxt p{
+  color: #fec111 !important;
+  margin-bottom: 0 !important;
+}
+
+.whitepprBtn {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.whitepprBtn button {
+  padding: 10px 26px;
+  color: #040d18;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Space Grotesk", sans-serif;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+}
+.connectBtn {
+  position: relative;
+}
+.connectBtn button {
+  padding: 10px 26px;
+  color: #040d18;
+  background-color: #fec111;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Space Grotesk", sans-serif;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+}
+
+/* /// DRAWER /// */
+.drwerHead {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+
+.logo {
+  width: 80px;
+  object-fit: contain;
+}
+
+.linkText {
+  width: 100%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: .5rem .8rem .5rem 1rem;
+  margin-bottom: 0 !important;
+}
+
+.activeLink {
+  background-color: #04c983;
+}
+
+/* /// small navbar /// */
+
+.smallNav {
+  display: none;
+}
+
+.smNavContainer {
+  background-color: black;
+  padding: 0 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.smNavContainer div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.smNavContainer p {
+  color: white;
+  font-size: 2.5rem;
+  margin-top: 0.8rem;
+}
+
+.smNavContainer h6 {
+  font-size: 14px;
+  color: #fec111;
+}
+
+.smLogo {
+  width: 100px;
+  object-fit: contain;
+}
+
+.smDrawerContainer {
+  background-color: #040d18;
+  color: whitesmoke;
+  padding: 2rem 2rem;
+  position: relative;
+}
+
+.smLinkSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.smLinkSection span {
+  font-size: 1.1rem;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 220%;
+  padding: .8rem 1rem;
+}
+
+.smBtnsDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.smBtnsDiv button:nth-child(1) {
+  height: fit-content;
+  background-color: #f0f0f0;
+  border: none;
+  padding: 0.4rem 1rem;
+  font-size: 1.3rem;
+  border-radius: 8px;
+  font-family: "Space Grotesk";
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  text-transform: uppercase;
+}
+
+.smBtnsDiv button:nth-child(2) {
+  height: fit-content;
+  background-color: #fec111;
+  border: none;
+  padding: 0.4rem 1rem;
+  font-size: 1.3rem;
+  border-radius: 8px;
+  font-family: "Space Grotesk";
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  text-transform: uppercase;
+}
+
+.smBtnsDiv button:nth-child(3) {
+  height: fit-content;
+  background-color: #fec111;
+  border: none;
+  padding: 0.4rem 1rem;
+  font-size: 1.3rem;
+  border-radius: 8px;
+  font-family: "Space Grotesk";
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  text-transform: uppercase;
+}
+
+.smBtnsDiv button:nth-child(4) {
+  height: fit-content;
+  background-color: #04c983;
+  border: none;
+  padding: 0.4rem 1rem;
+  font-size: 1.3rem;
+  border-radius: 8px;
+  font-family: "Space Grotesk";
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  text-transform: uppercase;
+}
+
+.socialIconsDiv {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  justify-items: center;
+  row-gap: 15px;
+  margin-top: 30px;
+}
+
+.socialIconsDiv img {
+  width: 47px;
+  height: 47px;
+  object-fit: contain;
+}
+
+.absoluteSection {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  font-size: 2.5rem;
+  color: #04c983;
+}
+.buttonBuy {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  padding: 10px 20px;
+  background: linear-gradient(
+    180deg,
+    #fec111 0%,
+    #fec111 51.91%,
+    #fec111 101.69%
+  );
+  box-shadow: inset -3.47664px -3.47664px 6.95327px #c89400,
+    inset 3.47664px 3.47664px 3.47664px #ffde7e;
+  border-radius: 12px;
+  display: block;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.buttonSupport {
+  background: linear-gradient(
+    180deg,
+    #04c983 0%,
+    #04c983 51.91%,
+    #04c983 101.69%
+  );
+  box-shadow: inset -3.47664px -3.47664px 6.95327px #046c47,
+    inset 3.47664px 3.47664px 3.47664px #1df0a5;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  padding: 7px 15px;
+  display: block;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+
+}
+.iconsHeader{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+.iconsHeader img{
+  height: 28px;
+  width: 28px;
+}
+/* connect menu  */
+.connectMenuContainer {
+  position: absolute;
+  width: 20em;
+  right: 0;
+  top: 120%;
+  box-sizing: border-box;
+  padding: 2em;
+  background: #060606;
+  display: none;
+}
+.menuImgsizing{
+  width: 2em;
+}.menuHeadingTxt {
+  font-family: Space Grotesk;
+  font-size: 24px;
+  font-weight: 700;
+}
+.menuTxtSz {
+  font-size: 1em;
+  color: #fff;
+  font-family: Space Grotesk;
+  font-weight: 400;
+}
+.cancleBtn{
+  cursor: pointer;
+  width: 16em !important;
+  justify-content: center !important;
+  border: 2px solid #fff !important;
+  border-radius: 5px !important;
+  background: transparent !important;
+  color: #fff !important;
+  transition: .5s;
+}
+
+.smlConnectBtn {
+  position: relative;
+}.smlSzBtn {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  background: #060606;
+  top: 120%;
+  z-index: 99;
+  padding: 2em;
+  border-radius: .2em;
+  display: none;
+}
+/* .dNone{
+  
+} */
+@media screen and (max-width: 1280px) {
+  .largeNav {
+    display: none;
+  }
+
+  .smallNav {
+    display: block;
+  }
+}
+@media screen and (min-width:575px) and (max-width: 743px) {
+  .navBox {
+    display: flex !important;
+    flex-direction: column-reverse;
+    padding-top: 2em;
+    order: 2 ;
+  }
+  .smLogo {
+      display: none;
+  }.whitepprBtn button {
+    padding: 7px 10px;
+    gap: 0.2rem;
+  }.connectBtn>button {
+    padding: 5px 14px;
+}.smNavContainer{
+  justify-content: center;
+}
+.smNavContainer div {
+  gap: 0;
+}.smNavContainer p {
+  margin-right: 5.5em;
+}
+}
+@media screen and (min-width:744px) and (max-width: 1439px) {
+  .smNavContainer h6 {
+    margin-bottom: 0rem;
+}
+}
+
+@media screen and (min-width:320px) and (max-width: 574px) {
+  .navBox {
+    display: flex !important;
+    flex-direction: column-reverse;
+    padding-top: 2em;
+    order: 2 ;
+  }
+  .smLogo {
+      display: none;
+  }.whitepprBtn button {
+    padding: 7px 10px;
+    gap: 0.2rem;
+  }.connectBtn>button {
+    padding: 5px 14px;
+}.smNavContainer{
+  justify-content: center;
+}
+.smNavContainer div {
+  gap: 0;
+}
+}

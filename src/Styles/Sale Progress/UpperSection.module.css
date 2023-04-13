@@ -1,0 +1,26 @@
+.mainContainer {
+  padding: 3rem 8.97%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 172.02%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+p {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 172.02%;
+  text-transform: capitalize;
+  color: #ffffff;
+}

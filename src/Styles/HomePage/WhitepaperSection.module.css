@@ -1,0 +1,91 @@
+.mainContainer {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 85px;
+  padding: 77px 15.13%;
+}
+
+.imgDiv img {
+  width: 450px;
+  height: 665px;
+  object-fit: contain;
+}
+
+.rightSideDiv h1 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  color: #000000;
+}
+
+.rightSideDiv h3 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  color: #000000;
+  margin-top: 46px;
+}
+
+.rightSideDiv p {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 141%;
+  color: #000000;
+  margin-top: 46px;
+}
+
+.rightSideDiv button {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 141%;
+  color: #f0f0f0;
+  background: #030707;
+  border-radius: 12px;
+  width: 408px;
+  height: 95px;
+  border: none;
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+}
+
+.rightSideDiv button span{
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .imgDiv img {
+    width: 360px;
+    height: 365px;
+    object-fit: contain;
+  }
+  .rightSideDiv h1{
+    font-size: 30px;
+  }
+  .rightSideDiv h3{
+    font-size: 22px;
+  }
+  .rightSideDiv p{
+    font-size: 16px;
+  }
+  .rightSideDiv button{
+    font-size: 15px;
+    width: 100%;
+    height: 65px;
+  }
+}

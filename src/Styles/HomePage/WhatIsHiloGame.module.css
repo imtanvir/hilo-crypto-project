@@ -1,0 +1,241 @@
+.mainContainer {
+  padding: 10rem 9% 0;
+  background-color: black;
+}
+
+.sectionHeading {
+  color: #f0f0f0;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  font-family: "Space Grotesk";
+}
+
+.peraContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.firstPera {
+  color: #f0f0f0;
+  font-size: 18.5px;
+  font-family: "Space Grotesk";
+}
+
+.firstPera span {
+  color: #fec111;
+  font-weight: 700;
+}
+
+.stepsContainer {
+  padding-top: 3rem;
+  color: white;
+  display: flex;
+  gap: 93px;
+}
+
+.stepsImgDiv img {
+  width: 430px;
+  height: 822px;
+  object-fit: contain;
+}
+
+.stepRightSideDiv h1 {
+  font-size: 45px;
+  font-family: "Space Grotesk";
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.steps {
+  margin-top: 46px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-family: "Space Grotesk";
+}
+
+.step img {
+  width: 143px;
+  object-fit: contain;
+}
+
+.stepTxtContainer h2 {
+  font-size: 26px;
+}
+
+.stepTxtContainer p {
+  font-size: 20px;
+  color: #798da3;
+}
+.visibleOut{
+  display: none;
+}.hideTime {
+  display: block;
+}
+@media screen and (min-width:992px) and (max-width: 1439px) {
+  .stepsImgDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stepsImgDiv img {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+}.firstPera {
+    font-size: 20px;
+}.stepTxtContainer h2 {
+    font-size: 22px;
+  }
+  .stepTxtContainer {
+    gap: 2em;
+  }
+  .stepTxtContainer p {
+  font-size: 16px;
+  }
+  .step {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+  .sectionHeading {
+    color: #f0f0f0;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: "Space Grotesk";
+  }
+  .firstPera {
+    font-size: 16px;
+  }.mainContainer{
+    padding: 0rem 9% 0;
+}.visibleTime {
+  display: none;
+}.hideTime {
+  display: block;
+}
+}
+@media screen and (min-width:992px) and (max-width: 1439px) {
+  .stepsContainer {
+    gap: 2em;
+  }
+}
+@media screen and (min-width:744px) and (max-width: 991px) {
+  .stepsImgDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .stepsImgDiv img {
+    width: 18em;
+    height: -webkit-fill-available;
+  }
+  .stepsContainer {
+    padding-top: 1rem;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }.firstPera {
+    font-size: 20px;
+}.stepTxtContainer h2 {
+    font-size: 16px;
+  }.stepTxtContainer p {
+  font-size: 16px;
+  }
+  .step {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}.step img{
+  width: 70px;
+}.steps {
+  gap: 0;
+  margin-top: 0;
+}
+  .sectionHeading {
+    text-align: center;
+    font-size: 40px;
+  }
+  .firstPera {
+    color: #f0f0f0;
+    font-size: 14px;
+    font-family: "Space Grotesk";
+  }.mainContainer{
+    padding: 0rem 9% 0;
+}.stepRightSideDiv h1 {
+  font-size: 28px;
+  margin-bottom: 1em;
+}.visibleTime {
+  display: none;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  padding-bottom: .5em;
+}.hideTime {
+  display: block;
+}
+}
+@media screen and (min-width:320px) and (max-width: 743px){
+  .stepsImgDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .stepsImgDiv img {
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+  }
+  .stepRightSideDiv h1 {
+    font-size: 16px;
+    padding-top: 1.5em;
+    text-align: center;
+}
+  .stepsContainer {
+    padding-top: 1rem;
+    color: white;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }.firstPera {
+    font-size: 20px;
+}.stepTxtContainer h2 {
+    font-size: 16px;
+  }.stepTxtContainer p {
+    font-size: 14px;
+  }
+  .step {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-family: "Space Grotesk";
+}.step img {
+  width: 90px;
+}
+  .sectionHeading {
+    font-size: 30px;
+  }
+  .firstPera {
+    color: #f0f0f0;
+    font-size: 14px;
+    font-family: "Space Grotesk";
+  }.mainContainer{
+    padding: 0rem 9% 0;
+}.visibleTime {
+  display: none;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  padding-bottom: .5em;
+}.hideTime {
+  display: block;
+}
+}
